@@ -1,0 +1,36 @@
+
+.content-flex {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+.user span {
+    margin-left: 10px;
+}
+.search-title {
+    margin-bottom: 7px;
+}
+.search{
+    margin-right: 20px;
+    width: 100%;
+    max-width: 315px;
+}
+.filter {
+    margin-right: 25px;
+}
+.noti-icon{
+    border: none;
+    background: none;
+    box-shadow: unset;
+}
+.noti-icon:hover {
+    background: initial;
+}
+.user{
+    cursor: pointer;
+    margin-left: 30px;
+}

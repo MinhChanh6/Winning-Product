@@ -1,0 +1,195 @@
+.ant-layout-sider {
+    color: #fff;
+    background: #256BFE;
+}
+.antd-header{
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    padding: 40px 30px 60px 30px;
+}
+.antd-content {
+    background-color: #F9F9F9;
+    padding: 0 30px;
+}
+.antd-button {
+    background-color: transparent;
+    border: none;
+    z-index: 10;
+    margin-bottom: unset;
+    font-size: 16px;
+    box-shadow: unset;
+    padding: unset !important;
+}
+.antd-button:hover,
+.antd-button:focus{
+    background-color: unset;
+    color: unset;
+}
+.antd-menu {
+    background-color: #256BFE;
+    color: #FFFFFF;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.ant-menu-item {
+    margin-bottom: 15px !important;
+}
+.ant-menu-item:hover {
+    color: #223B4F !important;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: #F9F9F9;
+    color: #223B4F;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: unset;
+    
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected > img {
+    background-color: #223B4F;
+    border-radius: 100%;
+    padding: 5px;
+}
+.menu-logo > img {
+    width: 100%;
+    max-width: 88px;
+}
+.menu-logo{
+    display: flex;
+    justify-content: center;
+    padding: 58px 0 60px 0;
+}
+.ant-menu.ant-menu-inline-collapsed .menu-logo {
+    padding: 20px 0 30px 0;
+}
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-item-selected {
+    padding: 0 calc(50% - 30px / 2);
+    transition: padding 0.4s ease-in-out;
+}
+.ant-menu.ant-menu-inline-collapsed .menu-logo > img{
+    display: none;
+}
+.content-button {
+    display: flex;
+    align-items: center;
+    background-color: #223B4F;
+    color: white;
+    padding: 11px 34px 10px 14px !important;
+    margin-right: 30px;
+}
+.content-button:hover,
+.content-button:active,
+.content-button:focus{
+    background-color: #223B4F;
+    color: white;
+    border-color: unset;
+}
+
+.content-button > img {
+    margin-right: 7px;
+}
+.ant-input {
+    border: none;
+    background-color: white;
+    padding: 5px 11px;
+}
+.ant-btn-primary {
+    padding: 4px 7px;
+    background: #256BFE;
+    border-color: #256BFE;
+    border-radius: 0 5px 5px 0 !important; 
+    box-shadow: unset;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: unset;
+}
+.search-option:hover,
+.ant-select-item-option-active:not(.ant-select-item-option-disabled),
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: #F3F7FF;
+    background: #F3F7FF;
+}
+
+.search-option:not(:last-child) {
+    border-bottom: 1px solid #EDEDED;
+}
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child {
+    left: unset;
+}
+.ant-select-dropdown {
+    box-shadow: 0px 8px 25px rgba(37, 107, 254, 0.15) !important;
+}
+.ant-layout-sider{
+    max-width: 270px  !important;
+    flex: 0 0 270px !important;
+    min-width: 270px !important;
+    width: 100% !important;
+}
+.ant-layout-sider-collapsed{
+    flex: 0 0 80px !important;
+    max-width: 80px !important;
+    min-width: 80px !important;
+    width: 80px !important;
+}
+.ant-layout-sider-collapsed .antd-menu{
+    padding-left: unset;
+}
+.ant-layout-sider-collapsed .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: transparent;
+}
+.antd-menu b:nth-child(1){
+    position: absolute;
+    background: #F9F9F9;
+    top: -20px;
+    height: 20px;
+    width: 100%;
+    z-index: 2;
+}
+.antd-menu b:nth-child(1)::before{
+    position: absolute;
+    content: "";
+    left: -55px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #256BFE;
+    border-bottom-right-radius: 20px;
+}
+.antd-menu b:nth-child(2){
+    position: absolute;
+    background: #F9F9F9;
+    bottom: -20px;
+    height: 20px;
+    width: 100%;
+}
+.antd-menu b:nth-child(2)::before{
+    position: absolute;
+    content: "";
+    left: -55px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #256BFE;
+    border-top-right-radius: 20px;
+}
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border-right: unset;
+}
+.ant-select-arrow {
+    background: #256BFE;
+    user-select: none;
+    width: 35px;
+    height: 100%;
+    right: 0;
+    top: 6px;
+    border-radius: 0 5px 5px 0;
+}
+.ant-select-arrow > span {
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+.ant-badge-count{
+    transform: unset;
+    box-shadow: unset;
+}

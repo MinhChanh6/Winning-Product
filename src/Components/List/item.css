@@ -1,0 +1,77 @@
+.item {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(37, 107, 254, 0.15);
+    position: relative;
+    border-radius: 25px;
+}
+.item-type{
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    top: 10px;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+.item-box {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0 !important;
+    padding-top: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.item-box img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-content {
+    padding: 0 10px 10px 10px;
+}
+.item-title{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.item-price {
+    display: flex;
+    justify-content: space-between;
+}
+.item-cost,
+.item-selling {
+    color: #256BFE;
+    font-weight: bold;
+}
+.item-button {
+    position: absolute;
+    z-index: 2;
+    right: -5px;
+    top: -20px;
+    background-color: #F5BE00;
+    border: none;
+}
+.item-button:hover{
+    background-color: #F5BE00;
+}
+.item-icon {
+    color: white;
+}
+.item-red {
+    background-color: red;
+    color: white;
+}
+.item-green {
+    background-color: #D0E7DC;
+    color: #309464;
+}
+.item-blue {
+    background-color: #C5E6F8;
+    color: #207DB3;
+}
